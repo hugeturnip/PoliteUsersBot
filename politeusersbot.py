@@ -5,7 +5,7 @@ r = praw.Reddit(user_agent = "A bot to thank users for being nice on reddit crea
 print("Logging in...")
 r.login("USERNAME","PASSWORD", disable_warnings = True)
 
-words_to_match = ['Please', 'thank you', 'You are welcome', 'May I', 'Excuse me', 'Pardon me', 'sorry', 'thanks ', ' thanks']
+words_to_match = ['Please', 'thank you', 'welcome', 'You are welcome', 'May I', 'Excuse me', 'Pardon', 'sorry', 'thanks ', ' thanks']
 cache = []
 
 nice = len(cache)
